@@ -1,0 +1,500 @@
+   53  streamlit run /Users/santoshkumarpandey/LCHAIN-CHAT-PROJECT/app.py
+   54  python --V
+   55  python --version
+   56  pyenv version
+   57  pyenv versions
+   58  pyenv local 3.8
+   59  python --version
+   60  which python
+   61  python -m venv venv
+   62  which python
+   63  pwd
+   64  source venv/bin/activate
+   65  python --v
+   66  python -V
+   67  which python
+   68  which pip
+   69  git --version
+   70  pwd
+   71  git init
+   72  git status
+   73  git add *
+   74  git status
+   75  git add .
+   76  git status
+   77  git commit -m "Hari Bol : First Commit on AI Project"
+   78  pip install python-dotenv
+   79  history
+   80  history > history_InitalSetup.txt
+   81  which pip
+   82  which python
+   83  clear
+   84  I already have dotenv
+   85  Ihave package manager
+   86  pyenv versions
+   87  pip install streamlit
+   88  pip install pypdf2
+   89  pip install lagchain
+   90  pip install langchain
+   91  pip install python-dotenv
+   92  pip install fiass-cpu
+   93  pip install fAIss-cpu
+   94  pip install openai
+   95  pip install huggingface_hub
+   96  history > history_Post_InitalSetup.txt
+   97  cls
+   98  clear
+   99  git status
+  100  git add >
+  101  git add .
+  102  git status
+  103  history | grep git
+  104  git commit -m "Hari Bol : First Commit on AI Project"
+  105  history > history_FinalWorking_InitalSetup.txt
+  106  git status
+  107  git add .
+  108  git commit -m "Hari Bol : First Commit on AI Project"
+  109  git status
+  110  git branch -M main
+  111  git remote add origin https://github.com/suntossh/lchainchatproject.git
+  112  git push -u origin main
+  113  source /Users/santoshkumarpandey/LCHAIN-CHAT-PROJECT/venv/bin/activate
+  114  /Users/santoshkumarpandey/LCHAIN-CHAT-PROJECT/venv/bin/python /Users/santoshkumarpandey/LCHAIN-CHAT-PROJECT/app.py
+  115  history
+  116  /Users/santoshkumarpandey/LCHAIN-CHAT-PROJECT/venv/bin/python /Users/santoshkumarpandey/LCHAIN-CHAT-PROJECT/app.py
+  117  clear
+  118  streamlit run /Users/santoshkumarpandey/LCHAIN-CHAT-PROJECT/app.py
+  119  source /Users/santoshkumarpandey/LCHAIN-CHAT-PROJECT/venv/bin/activate
+  120  pwd
+  121  ls
+  122  streamlit run app.py
+  123  source /Users/santoshkumarpandey/LCHAIN-CHAT-PROJECT/venv/bin/activate
+  124  streamlit run app.py
+  125  pwd
+  126  ls
+  127  cd LCHAIN-CHAT-PROJECT/
+  128  ls
+  129  code Treasury Services APIs
+  130  The BNY Mellon Treasury Services API developer portal empowers both business and technology stakeholders to explore our capabilities and get up to speed quickly on our suite of API endpoints. We are dedicated to providing developers with the tools they need to build innovative applications. This developer portal is a one-stop destination for accessing and understanding our APIs to enhance your business and client experience.
+  131  Note: Our APIs are designed for client applications, not for direct end-users. We verify credentials and authorize at the client level, as we do not have access to end-user information or their permissions within the client's application. Clients are responsible for implementing necessary controls, such as a maker-checker system, before utilizing our APIs.   
+  132  Our API Offerings
+  133  We strive to solve for the lack of simple and around-the-clock access to critical account and payment information for our clients. Our APIs enable direct access to features supported by the Treasury Services business for products and services such as ACH, Account Validation, Funds Transfer, Prepaid Debit Cards, Real-Time Payments, and Tokenized Payments with Zelle®.
+  134  Treasury Services APIs can be grouped under four core business functions: 
+  135  1Initiate various transaction types
+  136  2Track transaction status
+  137  3Request balances and statements
+  138  4Receive webhook event notifications
+  139   
+  140  Endpoints
+  141  With the endpoints below, you have access to execute a wide variety of transactional and reporting capabilities throughout the payment lifecycle.
+  142  Payment APIs
+  143  {base-url}/payments
+  144  API Function
+  145  Endpoint
+  146  Supported Products
+  147  Initiate a Payment
+  148  POST /payments
+  149  ACH
+  150  Funds Transfer
+  151  Real-Time Payments
+  152  Prepaid Debit Cards
+  153  Tokenized Payments with Zelle®
+  154  Track a Payment
+  155  GET /payments/{referenceId}
+  156  Funds Transfer
+  157  Real-Time Payments
+  158  Tokenized Payments with Zelle®
+  159  Track a Funds Transfer
+  160  GET /gpi/payments/{id}
+  161  Funds Transfer
+  162  Search Funds Transfer
+  163  POST /gpi/payments
+  164  Funds Transfer
+  165  Lookup Zelle® Tokens
+  166  POST /lookup/zelle/tokens
+  167  Tokenized Payments with Zelle®
+  168  Respond to an Event
+  169  POST /notification/event-response/events/{eventid}/responses
+  170  Real-Time Payments
+  171  Retrieve Member List
+  172  GET /lookup/rtp/members 
+  173  Real-Time Payments 
+  174  Lookup Member(s)
+  175  GET /lookup/rtp/members/{routingNumber}
+  176  Real-Time Payments
+  177  Send an Admin Message
+  178  POST /notification/rtp/admin-messages
+  179  Real-Time Payments
+  180  Validate a Bank Account Status/Owner 
+  181  POST /inquiry/avs/account-validations 
+  182  Account Validation
+  183  Retrieve Validation Results 
+  184  GET /inquiry/avs/account-validations/{id} 
+  185  Account Validation
+  186   
+  187  Reconciliation APIs
+  188  {base-url}/treasury-reports
+  189  API Function
+  190  Endpoint
+  191  Generate an FX Transactions Report
+  192  POST /fx-transactions
+  193  Generate a Funds Transfer Report
+  194  POST /fund-transfers
+  195  Retrieve Current Day Account Balance
+  196  POST /balance-reports/bank-to-customer-account-reports
+  197  Retrieve Account Debit and Credit Entries                                                                 
+  198  POST /balance-reports/bank-to-customer-debit-credit-notifications
+  199  Retrieve Historical Account Balance
+  200  POST /balance-reports/bank-to-customer-statements
+  201   
+  202  API Documentation
+  203  Our API documentation includes detailed getting started guides, code samples, troubleshooting help, best practices and more to help you integrate with our APIs seamlessly. 
+  204  Getting Started
+  205  Learn how to integrate with our APIs including how to receive a Consumer Key and Secret, and a Digital Certificate.
+  206  Products and Services
+  207  Initiate, track, and search payment transactions from initiation to completion via secure access to our global payment capabilities and instantly validate the status and ownership of an account prior to initiating a transaction.
+  208  Reconciliation
+  209  Review the collection, storage, and delivery of detailed balance and transaction data for your select accounts on a prior or current-day basis as soon as the information is available with our Reconciliation services.
+  210  Webhooks
+  211  Receive near real-time payment notifications throughout all points of the transaction lifecycle to remain up to date on the status of your transactions or account.
+  212  Technical
+  213  Troubleshoot and learn how to handle common API errors, review our versioning policy, discover how to configure webhooks, and more.
+  214   
+  215  About BNY Mellon Treasury Services
+  216  BNY Mellon Treasury Services has been a recognized leader of cash management services for decades and is uniquely positioned to provide a distinctive combination of products and services, innovation, industry knowledge and commitment to the business. BNY Mellon remains committed to bringing innovative products/services to its clients.
+  217  BNY Mellon is known for its service and is consistently named as one of the world’s safest banks. We provide the safety, reliability, flexibility and expertise to meet all your payment needs. And we invest in our business by enhancing our payments architecture with a view toward mitigating risk, responding to your regulatory demands, and helping you to manage your liquidity.
+  218  Getting Started
+  219  With just a few simple steps, you can gain access to powerful data and services via APIs, enabling you to enhance your applications and client satisfaction. This section contains the following documentation:
+  220  Integration 
+  221  Learn how to access and subscribe to Treasury Services APIs. 
+  222  Authentication 
+  223  Obtain an OAuth 2.0 token and use it in your API calls. 
+  224  Environments
+  225  Understand our different environments and how to access them.
+  226  Sandbox
+  227  Review our Sandbox environment capabilities and learn how to connect. 
+  228  Webhooks
+  229  Discover our webhook capabilities and offerings.
+  230  Integration
+  231  To connect to Treasury Services APIs, please follow the outlined steps below. Our API implementation and relationship management staff work with you and your development team throughout the process, from setup to launch, ensuring that your software integration plan remains on track and operational.
+  232   
+  233  Step 1 – Explore
+  234  The Treasury Services API portal makes it easy for you to find APIs that match your business needs. You can explore by product functionality and review respective API request/response code samples. 
+  235   
+  236  Step 2 – Get Access
+  237  You must log into the BNY Mellon Marketplace to subscribe to the APIs you are interested in.  
+  238  Note: The BNY Mellon Marketplace provides convenient, self-service access to a comprehensive catalog of all BNY Mellon’s APIs and Application solutions. The Treasury Services API portal is specific to Treasury Services only.
+  239  If you do not have the credentials to log into the Marketplace, please reach out to your BNY Mellon relationship manager. The BNY Mellon onboarding team will set up your access and provide your login credentials.  
+  240   
+  241  Step 3 – Authenticate
+  242  API calls use OAuth 2.0 for authentication. This requires you to subscribe to the API after logging into the BNY Mellon Marketplace. API subscription provides you with a Consumer Key and a Consumer Secret. Additionally, API authentication requires a client-specific digital certificate signed by BNY Mellon Certificate Authority (CA). You can obtain the certificate by providing a Certificate Signing Request (CSR) to your BNY Mellon onboarding team.
+  243  For more information, see Authentication.
+  244   
+  245  Step 4 – Test
+  246  Use the API credentials and digital certificate to integrate your applications with our API in the Treasury Services API Sandbox or test environment and test your application with our APIs. Before you begin formal testing, you need to complete any required business and technical onboarding steps, including getting access to the underlying payment service from the service owner.
+  247  For more information, see Environments.
+  248   
+  249  Step 5 – Launch
+  250  Launch your application in live production once testing is successfully completed.
+  251  Authentication
+  252  API requests are authenticated using the OAuth 2.0 protocol. Your application will need to obtain a valid OAuth 2.0 access token and send it as part of each API request. OAuth 2.0 provides different mechanisms, called grant types, for acquiring tokens. BNY Mellon APIs use a custom version of a grant type called a Client Certificate. This grant type uses a combination of Mutual SSL and application-level credentials. It requires two identity factors as explained below.
+  253  Note: Authorization Code, Implicit, and Client Credential standard grant types are not supported. 
+  254   Identity Factor 1 – Mutual SSL / Digital Certificate
+  255  This requires a digital certificate signed by the BNY Mellon Certificate Authority (CA). This certificate is provided by The BNY Mellon onboarding team during client onboarding in response to a Certificate Signing Request (CSR) that you must submit to initiate the certificate creation process.
+  256  For more information, see Digital Certificate.
+  257   
+  258  Identity Factor 2 – Consumer Key and Consumer Secret
+  259  These are provided during API Subscription via the BNY Mellon Marketplace. A separate set of Consumer Keys and Consumer Secrets are provided for each environment (Production, QA, and Sandbox). 
+  260  For more information, see Consumer Key and Secret.
+  261  Consumer Key and Secret
+  262  Once you have received your Marketplace credentials from the BNY Mellon onboarding team, you are ready to subscribe to an API.
+  263   
+  264  Step 1 - Login
+  265  Use your credentials to log into the BNY Mellon Marketplace.
+  266   
+  267  Step 2 - Search the Catalog
+  268  Search for your desired API in the API Catalog.
+  269  Note: All Payment API endpoints as referenced under the Products and Services section are referred to as the "Unified Payments API" in the Marketplace.  All endpoints under the Reconciliation / Reports section are referred to as "Treasury Reports API" in the Marketplace.
+  270   
+  271  Step 3 - Initiate Subscription
+  272  Find your API and click "Documentation" on the API tile to view the API's documentation page. Then select the Documentation tab. From there, click "Initiate Subscription".
+  273  ￼
+  274   
+  275  Step 4 - Enter Project Details
+  276  Enter your project name or select "Default Application", provide a brief description, and click "Confirm".
+  277  ￼
+  278   
+  279  Step 5 - View Subscription
+  280  After the success message appears, go to "My Marketplace" then go to "My Subscriptions". 
+  281  ￼
+  282  My Subscriptions
+  283  ￼
+  284   
+  285  Step 7 - Access Credentials
+  286  The Marketplace provides separate sets of credentials for each environment (Production, QA, and Sandbox). Choose the desired environment (Sandbox, QA, or Production) in the "Select Region" dropdown and click the link under "Project Credentials" column to see your API credentials (Consumer Key and Consumer Secret).
+  287  ￼
+  288  Note: If you subscribe to multiple APIs, you do not need to get a different Consumer Key and Consumer Secret for each API. During the subscription to the first API, you can create a project name. Use that same project name when you subscribe to subsequent APIs in that environment (QA or production). This enables you to use same Consumer Key and Consumer Secret for multiple APIs in a given environment.
+  289  You can view your API credentials anytime by visiting the "My Marketplace" page by using the link provided in the drop-down menu that you access by clicking your initials in the upper right corner. 
+  290   
+  291  Next Steps
+  292  In addition to Consumer Key and Consumer Secret, you also need a Digital Certificate for authentication. See Digital Certificate for more details.
+  293  Digital Certificate
+  294  In addition to Consumer Key and Consumer Secret, you must have a BNY Mellon-signed client certificate that is registered with the BNY Mellon API Gateway to make API calls. This certificate is provided by The BNY Mellon onboarding team during client onboarding. You must provide a valid Certificate Signing Request (CSR) to initiate the certificate creation process by following the steps outlined below.
+  295  Create Certificate Signing Request
+  296  The first step in obtaining a client certificate is to create a CSR. This section describes how to use openssl to create a *.csr file and a *.key file. The *.csr file can be shared publicly in order to receive a public certificate (*.cer), which can also be shared publicly. It is critically important for the *.key file to remain private within the organization requesting it. It should never be shared with anyone. 
+  297  Note: The following procedure has been validated on Linux/Unix, Mac, and Windows.
+  298  •Save the cnf file to your working directory.
+  299  •Open Terminal (Linux/Unix, Mac) or Git Bash (Windows) and change to your working directory.
+  300  •Run the following openssl command to generate a private key and the Certificate Signing Request (CSR):
+  301  •Determine a working directory. In your working directory, create a *.cnf file. Add the following content to the file: san.cnf file:[ req ]
+  302  •prompt = no
+  303  •default_bits       = 2048
+  304  •distinguished_name = req_distinguished_name
+  305  •req_extensions     = SAN
+  306  • 
+  307  •[ req_distinguished_name ]
+  308  •C=US
+  309  •ST=New Jersey
+  310  •L=Jersey City
+  311  •O=ABC CORP
+  312  •OU=SST
+  313  •CN=ABCCORP
+  314  •emailAddress=ExampleName@bnym.com
+  315  •
+  316  •[SAN]
+  317  •subjectAltName=DNS:ABCCORP Note: Critical Notes: The C, ST, L, O, OU, CN, emailAddress, and ABCCORP values shown above are for an example only. When creating your san.cnf file, use values you want included in your CSR and private key files, but note the following: - SAN cannot be multi-value - the common name should consist of the client’s name or a name relevant to the client - the common name and the subject alternate name (SAN) must match - you must include the SAN in the CSR - while creating a common name, avoid using underscores, which may lead to issues; instead, use dashes - do not use special characters or wildcards in common name ((? $ %, etc.) - the example above assumes the san.cnf file is in the same directory where you’ll run     the openssl command (i.e., your working directory).  The following table provides information about the values:
+  318  •DN Field
+  319  •Attributes
+  320  •Explanation
+  321  •Example
+  322  •Country Name
+  323  •C
+  324  •Two letter ISO code of your country; for more information seeISO 3166.
+  325  •US
+  326  •State or Province Name
+  327  •ST
+  328  •State or province where your organization is legally located.
+  329  •NJ
+  330  •Locality Name  
+  331  •L
+  332  •City where your organization is legally located.
+  333  •Jersey City
+  334  •Organizational Name
+  335  •O
+  336  •Name of your firm.
+  337  •BNY Mellon
+  338  •Organizational Unit
+  339  •OU
+  340  •Name of your department. 
+  341  •Custody
+  342  •Common Name
+  343  •CN
+  344  •Unique name (recommended convention is ClientNameApplicationID).
+  345  •ABCCORP
+  346  •Email Address
+  347  •emailAddress
+  348  •This should be a group email address at your firm that should be used for correspondence regarding certificate renewals or issues (do not use an individual’s email address for this field; a group email is required).
+  349  •cust_testing@bnymellon.com
+  350  •Subject 
+  351  •Alternative 
+  352  •Names 
+  353  •SAN
+  354  •Subject Alternative Name lets specific host names (sites, IP addresses, domains, or common names be protected by the same certificate.
+  355  •Must match Common Name. 
+  356  •DNS:BankXYZ123
+  357  • 
+  358  •Save the san.cnf file to your working directory.
+  359  •Open Terminal (Linux/Unix, Mac) or Git Bash (Windows) and change to your working directory.
+  360  •Run the following openssl command to generate a private key and the CSR:
+  361  openssl req -out abc_test.csr -newkey rsa:2048 -nodes -keyout abc_test.key -reqexts SAN -config san.cnf
+  362  The terminal generates the following output:
+  363  Generating a 2048 bit RSA private key
+  364  ...........................................+++
+  365  .........................................+++
+  366  writing new private key to ‘abc_test.key’
+  367  •Verify that a *.key file matching the file name you provided in the openssl command is generated in your working directory. A *.csr file should also be present.
+  368  Important: You must keep the *.key file safe and secure. If you delete it, you must replace all certificates that use it.
+  369  Verify Certificate Signing Request  
+  370  You can verify a Certificate Signing Request using openssl.
+  371  •Verify the CSR before sending it to the BNYM Marketplace Team.
+  372  Run the following command (for Windows, full path to openssl may be required):
+  373  openssl req -text -verify -in abc_test.csr
+  374  The output should resemble the following:
+  375   Verify OK
+  376      Data:
+  377          Version: 0 (0x0)
+  378          Subject: C=US, ST=New Jersey, L=Jersey City, O=BNY Mellon, OU=custody, CN=BankXYZ123/emailAddress=cust_testing@bnymellon.com
+  379          Subject Public Key Info:
+  380              Public Key Algorithm: rsaEncryption
+  381                  Public-Key: (2048 bit)
+  382                  Modulus:
+  383                      00:d8:94:4d:d7:3a:64:77:0b:6b:40:23:ea:98:f4:
+  384                      bb:91:f4:3c:37:03:1c:86:0b:d1:5f:6b:68:41:33: 
+  385                      50:e6:3e:33:06:65:59:2d:73:09:ef:c9:b5:dd:3b: 
+  386                      a1:e6:5a:83:3c:bc:dd:75:49:4d:e0:4d:75:9a:03: 
+  387                      31:c9:6b:0b:fc:6f:02:87:10:3a:7a:20:b4:15:88:
+  388                      29:c4:66:db:58:a0:86:2c:1e:98:f6:32:95:99:6d:
+  389                      00:77:db:5f:5c:49:9c:3d:a4:46:00:b6:a7:ab:5b:
+  390                      1d:1c:78:72:e7:a3:c6:b5:3a:50:6d:b3:bd:22:45:  
+  391                      b2:15:bb:2d:43:49:98:12:c7:1e:5e:a4:c6:c0:d7:   
+  392                      52:89:5b:4b:0b:b7:3c:81:f1:c3:7c:55:3d:04:3f:
+  393                      89:3b:40:6b:5b:d5:cf:15:bd:12:48:dd:cd:78:0c:
+  394                      4b:65:53:01:31:3f:66:8c:0e:8f:2d:0e:23:16:e2:   
+  395                      25:d8:b0:ca:58:1e:a6:8a:ad:b0:58:4e:c8:ff:60:     
+  396                      bf:95:1d:20:72:56:0c:68:6d:cb:d6:82:fd:72:62:    
+  397                      46:b3:8f:14:30:34:82:46:96:9a:81:cc:a1:e6:71:
+  398                      91:b8:95:22:2a:03:2e:ca:04:02:9e:c9:86:06:10:      
+  399                      8a:97:e1:97:c3:5e:d8:f0:91:4c:1e:fe:e7:13:a4:
+  400                      67:b9
+  401                  Exponent: 65537 (0x10001)
+  402          Attributes:
+  403          Requested Extensions:
+  404              X509v3 Subject Alternative Name: 
+  405                  DNS:BankXYZ123
+  406      Signature Algorithm: sha256WithRSAEncryption
+  407           52:41:e5:f5:6a:65:fe:d5:21:4e:5a:4e:16:f0:43:e2:7c:85:
+  408           d4:ab:f4:ba:89:9d:5c:45:ad:81:48:d0:3e:f2:00:42:31:ec:  
+  409           e1:d5:6f:bd:8b:34:f7:b4:c4:36:fa:76:4d:8a:3b:45:c7:cd:     
+  410           6c:03:b3:32:dd:13:fe:8b:9e:56:f7:6e:19:d6:bd:2a:ec:d0:
+  411           6f:e6:78:bd:ba:21:81:d9:c3:3a:3d:44:b8:41:28:5e:df:60: 
+  412           10:c0:aa:fe:e9:87:4b:98:05:a6:01:2f:e2:76:ad:06:e9:3e:  
+  413           df:af:c5:c0:51:07:43:83:02:59:b0:4d:ee:ec:c3:2a:15:de:  
+  414           b0:4d:7f:4c:e7:53:0b:61:73:6d:ea:b9:cf:17:1f:c9:c7:f7:  
+  415           33:de:50:d6:79:81:5b:8b:87:0b:c9:84:dc:3d:92:b8:91:8d: 
+  416           a8:9d:09:c9:00:2e:2a:07:0c:0f:56:55:a2:17:93:17:c3:59: 
+  417           de:eb:6c:1d:ba:fd:75:80:6f:a6:77:1e:5d:fe:3f:14:6d:13:  
+  418           68:40:3d:ed:78:89:68:4f:bd:a7:2f:c0:44:e3:dc:1d:b8:58:   
+  419           49:40:0f:74:e2:35:61:49:f2:95:54:24:fa:70:f7:93:e2:2a:   
+  420           d0:1e:7b:67:5c:e8:c8:7f:89:61:14:b4:df:2e:f6:58:6e:c1:
+  421           99:db:57:8d
+  422  -----BEGIN CERTIFICATE REQUEST-----
+  423  MIIDDTCCAfFCAQAwgZ8xCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApOZXcgSmVyc2V5
+  424  MRQwEgYDVQQHDAtKZXJzZXkgQ2l0eTETMBEGA1UECgwKQk5ZIE1lbGxvbjEQMA4G
+  425  A1UECwwHY3VzdG9keTETMBEGA1UEAwwKQmFua1hZWjEyMzEpMCcGCSqGSIb3DQEJ
+  426  ARYaY3VzdF90ZXN0aW5nQGJueW1lbGxvbi5jb20wggEiMA0GCSqGSIb3DQEBAQUA
+  427  A4IBDwAwggEKAoIBAQDYlEzXOmR3C2tAI+qY9LuR9Dw3AxyGC9Ffa2hBM1DmPjMG
+  428  ZVktcwnvybXdO6HmWoM8vN11SU3gTXWaAzHJawv8bwKHEDp6ILQViCnEZttYoIYs
+  429  Hpj2MpWZbQB3219cSZw9pEYAtqe7Wx0ceHLno8a1OlBts70iRbIVuy1DSZgSxx5e
+  430  pMbA14KJW0sLtzyB8cN8ST0EP9k7QGtb1c8VvRJI3c14DEtlUwExP2aMDo8tDiMW
+  431  4iXYsMpYHqaKrbBYTsj/YL+VHSByVgxobcvWgv1yYkazjxQwNIJGllrBeKHmcXG4
+  432  lSIqAy7KBAKeyYYGEIqX4ZfDXtjwkUwe/ucTpGe5AgMBAAGgKDAmBgkqhkiG9w0B
+  433  CQ4xGTAXGBUGA1UdEQQORAyCCkJhnmtYWVoxMjMwDQYJKoZIhvcEAQELBQADggEB
+  434  AFJB5cVqZf7VIU5aThbwQ+J8hdSr9LqJnVxFrYFI0D7yAEIx7OHVb72LNPe0xDb6
+  435  dk2KO0XHzWwDszLdE/6Lnlb3bhnWvSrs0G/meL26IYHZwzo9RLhBKF7fYBDAqv7p
+  436  h0uYBaYBL+J2rQbpPt+vxcBRB0ODAlmwTe7swyoV3rBNf0znUwtjc23quc8XH8nH
+  437  9zPeUNZ5gVuLhwvJhNw9kriRjaidCckALioHDA9WVaIXlBfDWd7rbB26/XWAb6Z3
+  438  Hl3+PxRtE2hAPe13iWhPvacvwEXTj3B24WElAD3TiNWFJ8pVUJPpw95PiKtAee2lc
+  439  6Mh/iWEUtN8u9lhuwZnbVX0=
+  440  -----END CERTIFICATE REQUEST-----
+  441  Important: 
+  442  •BNY Mellon CA-signed certificates expire after two years. Certificates need to be renewed prior to their expiration date. During certificate renewal, you will need to provide exactly the same Subject as the certificate you are about to renew; failure to do so will result in a certificate renewal process delay and may cause an outage of your application.
+  443  •The key file contains the private key. It is critically important that this file not be shared outside of authorized personnel and follows the best practices of your organization to ensure it remains safe.
+  444  Request Certificate Signing
+  445  After the *.csr file is created, the next step is to sign the certificate request and receive the public certificate. The purpose of the signature is for BNY Mellon to certify that it knows to whom this certificate belongs.
+  446  1Attach the *.csr to an email. Subject: “ CSR BNY Mellon CA Signed Certificate” In the body of the email, indicate “Please generate a BNY Mellon CA Signed certificated based on the attached CSR”
+  447  2to3Send the email to your BNY Mellon Relationship Manager or Onboarding Project Manager. After receiving the Client Certificate Signing Request, the Marketplace Team will verify the CSR and the certificate is signed by the BNY Mellon CA.
+  448  The Marketplace Team, BNY Mellon Relationship Manager, or Onboarding Project Manager will return a signed certificate to you.
+  449  Create the Keystore File 
+  450  The returned certificate has the file extension .cer and contains: 
+  451  “-----BEGIN CERTIFICATE-----“
+  452  and 
+  453  “-----END CERTIFICATE-----“ statements.
+  454  You can use following command to get the details of the certificate:
+  455  openssl x509 –in abc_test.cer -text –noout
+  456  Login to the same machine/VM where the key file exists from the Client Certificate generation step. Copy the abc_test.cer file, received from the BNY Mellon CA to the same directory. So far, you should have two files:
+  457  source /Users/santoshkumarpandey/LCHAIN-CHAT-PROJECT/venv/bin/activate
+  458  clear
+  459  history
+  460  python --version
+  461  which python
+  462  streamlit run app.py
+  463  clear
+  464  streamlit run appBasic.py
+  465  streamlit run appBasic.py
+  466  ls
+  467  cd LC
+  468  cd LCHAIN-CHAT-PROJECT/
+  469  which python
+  470  python --version
+  471  source venv/bin/activate
+  472  which python
+  473  python --version
+  474  which pip
+  475  git --version
+  476  git status
+  477  git restore appBasic.py
+  478  streamlit run appBasic.py
+  479  streamlit run app.py
+  480  streamlit run app.py
+  481  clear
+  482  streamlit run app.py
+  483  source /Users/santoshkumarpandey/LCHAIN-CHAT-PROJECT/venv/bin/activate
+  484  /Users/santoshkumarpandey/LCHAIN-CHAT-PROJECT/venv/bin/python /Users/santoshkumarpandey/LCHAIN-CHAT-PROJECT/app.py
+  485  streamlit run app.py
+  486  pwd
+  487  mkdir db
+  488  mkdir models
+  489  mkdir docs
+  490  which python
+  491  which pip
+  492  which python3
+  493  python -m venv .venv
+  494  /Users/santoshkumarpandey/workspace/Chat-with-PDF-Chatbot/venv/bin/python /Users/santoshkumarpandey/workspace/Chat-with-PDF-Chatbot/ingest.py
+  495  python --version
+  496  python3 --version
+  497  source my-venv/bin/activate
+  498  python --version
+  499  python3 --version
+  500  pyenv versions
+  501  /Users/santoshkumarpandey/workspace/Chat-with-PDF-Chatbot/venv/bin/python /Users/santoshkumarpandey/workspace/Chat-with-PDF-Chatbot/ingest.py
+  502  python ingest.py 
+  503  mkdir db
+  504  clear
+  505  python3 ingest.py 
+  506  python3 ingest.py 
+  507  pyenv versions
+  508  clear
+  509  python3 ingest.py
+  510  python3 ingest.py
+  511  clear
+  512  clear
+  513  python3 ingest.py
+  514           df:af:c5:c0:51:07:43:83:02:59:b0:4d:ee:ec:c3:2a:15:de:  
+  515  brew install python 3.11
+  516  pyenv install 3.11
+  517  pyenv versions
+  518  python ingest.py
+  519  python --version
+  520  python --version
+  521  which python
+  522  history
+  523  pyenv local 3.11
+  524  which python
+  525  python --version
+  526  python3 --version
+  527  source my-venv/bin/activate
+  528  which python
+  529  pyenv versions
+  530  python3 --version
+  531  python --version
+  532  pyenv local 3.11
+  533  source my-venv/bin/activate
+  534  python --version
+  535  python3 --version
+  536  history | grep vi
+  537  history | grep "vi "
+  538  history | grep "vi"
+  539  ls -la ~
+  540  vi .zshrc
+  541  vi .bashrc
+  542  vi ~/.bashrc
+  543  eval "$(pyenv init --path)"
+  544  python --version
+  545  python ingest.py
+  546  python3 ingest.py
+  547  eval "$(pyenv init --path)"
+  548  python --version
+  549  python3 ingest.py
+  550  python ingest.py
+  551  history | grep "req "
+  552  history > test.txt
